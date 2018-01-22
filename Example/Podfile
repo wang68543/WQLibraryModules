@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WQLibraryModules_Example' do
+  pod 'WQLibraryModules', :path => '../'
+
+  target 'WQLibraryModules_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
