@@ -2,7 +2,15 @@ use_frameworks!
 
 target 'WQLibraryModules_Example' do
   pod 'WQLibraryModules', :path => '../'
+  
+  pod 'RxSwift'
+  pod 'Alamofire'
+#  pod 'SnapKit' //直接使用 暂不对其做继续封装
+#  pod 'Kingfisher' //
+# pod 'NVActivityIndicatorView' //loading
+# pod 'Toast-Swift' //loading
 
+  pod 'RealmSwift'
   target 'WQLibraryModules_Tests' do
     inherit! :search_paths
 
