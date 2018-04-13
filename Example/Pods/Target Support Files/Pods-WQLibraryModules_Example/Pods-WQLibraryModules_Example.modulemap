@@ -1,0 +1,6 @@
+framework module Pods_WQLibraryModules_Example {
+  umbrella header "Pods-WQLibraryModules_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
