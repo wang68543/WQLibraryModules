@@ -1,0 +1,16 @@
+PODS:
+  - WQLibraryModules (0.1.0)
+
+DEPENDENCIES:
+  - WQLibraryModules (from `../`)
+
+EXTERNAL SOURCES:
+  WQLibraryModules:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WQLibraryModules: 077a5090689624bb11878cc00e52a5fc5eece791
+
+PODFILE CHECKSUM: f0d0519a83f7c2a002a1f7e010a01b113ab80640
+
+COCOAPODS: 1.3.1
